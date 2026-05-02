@@ -1,0 +1,42 @@
+# Environment & Secrets
+.env
+.env.local
+.env*.local
+
+# Virtual Environment
+.contextvenv
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Project Data
+qdrant_db/
+*.txt
+output.md
+chunks.txt
+raw_text.txt
+contextualized_chunks.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Claude Code
+.claude/
+claude_code.log
+
+# Security
+SECURITY_AUDIT.md
